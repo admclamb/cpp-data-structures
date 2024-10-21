@@ -1,0 +1,39 @@
+# Ignore build output directories
+build/
+/bin/
+/obj/
+
+# Ignore common C++ compiled files
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+
+# Ignore temporary files created by editors
+*~
+*.swp
+*.tmp
+*.bak
+*.log
+
+# Ignore Visual Studio Code settings and configurations
+.vscode/
+
+# Ignore Makefile generated files (if applicable)
+Makefile.in
+Makefile~
+
+# Ignore CMake generated files (if applicable)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Ignore other IDE settings
+.idea/
+*.iml
+
+# Ignore backup files
+*.gch
+*.dSYM/
